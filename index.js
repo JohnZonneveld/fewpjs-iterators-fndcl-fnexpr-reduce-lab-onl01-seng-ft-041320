@@ -3,4 +3,4 @@ const reducer = (accumulator, currentValue) => accumulator + currentValue;
 
 // Code your solution here
 
-let totalBatteries = parseInt(batteryBatches.reduce(reducer))
+let totalBatteries = batteryBatches.reduce(reducer)
